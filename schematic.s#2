@@ -7465,7 +7465,7 @@ grid 2.54 mm</description>
 <part name="SPI" library="con-3m-skt-header" deviceset="SOCKET-10" device="V"/>
 <part name="Q1" library="transistor-power" deviceset="IRF540" device="" value="IRLB8743"/>
 <part name="Q2" library="transistor-power" deviceset="IRF540" device="" value="IRLB8743"/>
-<part name="MOTOR1" library="con-3m-skt-header" deviceset="SOCKET-10" device="V"/>
+<part name="MOTOR-1" library="con-3m-skt-header" deviceset="SOCKET-10" device="V"/>
 <part name="R2" library="Seeed-OPL-Resistor" deviceset="SMD-RES-1K-1%-1/10W(0603)" device="" value="100K"/>
 <part name="R3" library="Seeed-OPL-Resistor" deviceset="SMD-RES-1K-1%-1/10W(0603)" device="" value="10k"/>
 <part name="IC3" library="adafruit" deviceset="TB6612FNG" device=""/>
@@ -7498,11 +7498,11 @@ grid 2.54 mm</description>
 <part name="C24" library="Seeed-OPL-Capacitor" deviceset="CERAMIC-0.5PF-50V-0.1PF-NPO(0603)" device="" value="0.5PF 50V"/>
 <part name="C25" library="Seeed-OPL-Capacitor" deviceset="CERAMIC-0.5PF-50V-0.1PF-NPO(0603)" device="" value="0.5PF 50V"/>
 <part name="C26" library="Seeed-OPL-Capacitor" deviceset="CERAMIC-0.5PF-50V-0.1PF-NPO(0603)" device="" value="0.5PF 50V"/>
-<part name="MOTOR2" library="con-3m-skt-header" deviceset="SOCKET-10" device="V"/>
+<part name="MOTOR-2" library="con-3m-skt-header" deviceset="SOCKET-10" device="V"/>
 <part name="C5" library="Seeed-OPL-Capacitor" deviceset="CERAMIC-0.5PF-50V-0.1PF-NPO(0603)" device="" value="0.5PF 50V"/>
-<part name="MOTOR3" library="con-3m-skt-header" deviceset="SOCKET-10" device="V"/>
+<part name="MOTOR-3" library="con-3m-skt-header" deviceset="SOCKET-10" device="V"/>
 <part name="C6" library="Seeed-OPL-Capacitor" deviceset="CERAMIC-0.5PF-50V-0.1PF-NPO(0603)" device="" value="0.5PF 50V"/>
-<part name="MOTOR4" library="con-3m-skt-header" deviceset="SOCKET-10" device="V"/>
+<part name="MOTOR-4" library="con-3m-skt-header" deviceset="SOCKET-10" device="V"/>
 <part name="C7" library="Seeed-OPL-Capacitor" deviceset="CERAMIC-0.5PF-50V-0.1PF-NPO(0603)" device="" value="0.5PF 50V"/>
 <part name="ENC12" library="con-3m-skt-header" deviceset="SOCKET-10" device="V"/>
 <part name="C27" library="Seeed-OPL-Capacitor" deviceset="CERAMIC-0.5PF-50V-0.1PF-NPO(0603)" device="" value="0.5PF 50V"/>
@@ -7516,7 +7516,7 @@ grid 2.54 mm</description>
 <part name="IMU" library="SparkFun-Connectors" deviceset="M09" device=""/>
 <part name="POWER" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="FUSE" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
-<part name="J20" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
+<part name="M-POWER" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="J11" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="J12" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
@@ -7557,7 +7557,7 @@ grid 2.54 mm</description>
 <instance part="SPI" gate="G$1" x="100.33" y="88.9"/>
 <instance part="Q1" gate="G$1" x="-97.79" y="35.56"/>
 <instance part="Q2" gate="G$1" x="-97.79" y="58.42"/>
-<instance part="MOTOR1" gate="G$1" x="100.33" y="63.5"/>
+<instance part="MOTOR-1" gate="G$1" x="100.33" y="63.5"/>
 <instance part="R2" gate="G$1" x="-25.4" y="78.74" rot="R90"/>
 <instance part="R3" gate="G$1" x="-25.4" y="68.58" rot="R90"/>
 <instance part="IC3" gate="G$1" x="288.29" y="30.48"/>
@@ -7590,11 +7590,11 @@ grid 2.54 mm</description>
 <instance part="C24" gate="G$1" x="152.4" y="146.05" rot="R90"/>
 <instance part="C25" gate="G$1" x="140.97" y="146.05" rot="R90"/>
 <instance part="C26" gate="G$1" x="130.81" y="146.05" rot="R90"/>
-<instance part="MOTOR2" gate="G$1" x="100.33" y="40.64"/>
+<instance part="MOTOR-2" gate="G$1" x="100.33" y="40.64"/>
 <instance part="C5" gate="G$1" x="119.38" y="36.83" rot="R90"/>
-<instance part="MOTOR3" gate="G$1" x="100.33" y="17.78"/>
+<instance part="MOTOR-3" gate="G$1" x="100.33" y="17.78"/>
 <instance part="C6" gate="G$1" x="119.38" y="13.97" rot="R90"/>
-<instance part="MOTOR4" gate="G$1" x="100.33" y="-5.08"/>
+<instance part="MOTOR-4" gate="G$1" x="100.33" y="-5.08"/>
 <instance part="C7" gate="G$1" x="119.38" y="-8.89" rot="R90"/>
 <instance part="ENC12" gate="G$1" x="152.4" y="-5.08"/>
 <instance part="C27" gate="G$1" x="172.72" y="-6.35" rot="R90"/>
@@ -7608,7 +7608,7 @@ grid 2.54 mm</description>
 <instance part="IMU" gate="G$1" x="198.12" y="92.71"/>
 <instance part="POWER" gate="G$1" x="-111.76" y="100.33" rot="R180"/>
 <instance part="FUSE" gate="G$1" x="-111.76" y="110.49" rot="R180"/>
-<instance part="J20" gate="G$1" x="218.44" y="17.78" rot="R180"/>
+<instance part="M-POWER" gate="G$1" x="218.44" y="17.78" rot="R180"/>
 <instance part="J1" gate="G$1" x="248.92" y="29.21"/>
 <instance part="J11" gate="G$1" x="355.6" y="30.48"/>
 <instance part="J12" gate="G$1" x="355.6" y="99.06"/>
@@ -7835,47 +7835,47 @@ grid 2.54 mm</description>
 </segment>
 <segment>
 <label x="107.95" y="63.5" size="1.778" layer="95"/>
-<pinref part="MOTOR1" gate="G$1" pin="5"/>
+<pinref part="MOTOR-1" gate="G$1" pin="5"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="107.95" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="92.71" y1="68.58" x2="87.63" y2="68.58" width="0.1524" layer="91"/>
 <label x="86.36" y="68.58" size="1.778" layer="95"/>
-<pinref part="MOTOR1" gate="G$1" pin="10"/>
+<pinref part="MOTOR-1" gate="G$1" pin="10"/>
 </segment>
 <segment>
 <label x="107.95" y="40.64" size="1.778" layer="95"/>
-<pinref part="MOTOR2" gate="G$1" pin="5"/>
+<pinref part="MOTOR-2" gate="G$1" pin="5"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="107.95" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="92.71" y1="45.72" x2="87.63" y2="45.72" width="0.1524" layer="91"/>
 <label x="86.36" y="45.72" size="1.778" layer="95"/>
-<pinref part="MOTOR2" gate="G$1" pin="10"/>
+<pinref part="MOTOR-2" gate="G$1" pin="10"/>
 </segment>
 <segment>
 <label x="107.95" y="17.78" size="1.778" layer="95"/>
-<pinref part="MOTOR3" gate="G$1" pin="5"/>
+<pinref part="MOTOR-3" gate="G$1" pin="5"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="107.95" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="92.71" y1="22.86" x2="87.63" y2="22.86" width="0.1524" layer="91"/>
 <label x="86.36" y="22.86" size="1.778" layer="95"/>
-<pinref part="MOTOR3" gate="G$1" pin="10"/>
+<pinref part="MOTOR-3" gate="G$1" pin="10"/>
 </segment>
 <segment>
 <label x="107.95" y="-5.08" size="1.778" layer="95"/>
-<pinref part="MOTOR4" gate="G$1" pin="5"/>
+<pinref part="MOTOR-4" gate="G$1" pin="5"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="107.95" y1="-5.08" x2="119.38" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="92.71" y1="0" x2="87.63" y2="0" width="0.1524" layer="91"/>
 <label x="86.36" y="0" size="1.778" layer="95"/>
-<pinref part="MOTOR4" gate="G$1" pin="10"/>
+<pinref part="MOTOR-4" gate="G$1" pin="10"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="-5.08" x2="170.18" y2="-5.08" width="0.1524" layer="91"/>
@@ -8138,7 +8138,7 @@ grid 2.54 mm</description>
 <junction x="177.8" y="153.67"/>
 </segment>
 <segment>
-<pinref part="MOTOR1" gate="G$1" pin="1"/>
+<pinref part="MOTOR-1" gate="G$1" pin="1"/>
 <wire x1="107.95" y1="58.42" x2="113.03" y2="58.42" width="0.1524" layer="91"/>
 <label x="107.95" y="58.42" size="1.778" layer="95"/>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -8149,10 +8149,10 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="92.71" y1="63.5" x2="87.63" y2="63.5" width="0.1524" layer="91"/>
 <label x="85.09" y="63.5" size="1.778" layer="95"/>
-<pinref part="MOTOR1" gate="G$1" pin="6"/>
+<pinref part="MOTOR-1" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<pinref part="MOTOR2" gate="G$1" pin="1"/>
+<pinref part="MOTOR-2" gate="G$1" pin="1"/>
 <wire x1="107.95" y1="35.56" x2="113.03" y2="35.56" width="0.1524" layer="91"/>
 <label x="107.95" y="35.56" size="1.778" layer="95"/>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -8163,10 +8163,10 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="92.71" y1="40.64" x2="87.63" y2="40.64" width="0.1524" layer="91"/>
 <label x="85.09" y="40.64" size="1.778" layer="95"/>
-<pinref part="MOTOR2" gate="G$1" pin="6"/>
+<pinref part="MOTOR-2" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<pinref part="MOTOR3" gate="G$1" pin="1"/>
+<pinref part="MOTOR-3" gate="G$1" pin="1"/>
 <wire x1="107.95" y1="12.7" x2="113.03" y2="12.7" width="0.1524" layer="91"/>
 <label x="107.95" y="12.7" size="1.778" layer="95"/>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -8177,10 +8177,10 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="92.71" y1="17.78" x2="87.63" y2="17.78" width="0.1524" layer="91"/>
 <label x="85.09" y="17.78" size="1.778" layer="95"/>
-<pinref part="MOTOR3" gate="G$1" pin="6"/>
+<pinref part="MOTOR-3" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<pinref part="MOTOR4" gate="G$1" pin="1"/>
+<pinref part="MOTOR-4" gate="G$1" pin="1"/>
 <wire x1="107.95" y1="-10.16" x2="113.03" y2="-10.16" width="0.1524" layer="91"/>
 <label x="107.95" y="-10.16" size="1.778" layer="95"/>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -8191,7 +8191,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="92.71" y1="-5.08" x2="87.63" y2="-5.08" width="0.1524" layer="91"/>
 <label x="85.09" y="-5.08" size="1.778" layer="95"/>
-<pinref part="MOTOR4" gate="G$1" pin="6"/>
+<pinref part="MOTOR-4" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <label x="160.02" y="-10.16" size="1.778" layer="95"/>
@@ -8519,7 +8519,7 @@ grid 2.54 mm</description>
 <wire x1="331.47" y1="40.64" x2="312.42" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MOTOR1" gate="G$1" pin="2"/>
+<pinref part="MOTOR-1" gate="G$1" pin="2"/>
 <wire x1="92.71" y1="58.42" x2="87.63" y2="58.42" width="0.1524" layer="91"/>
 <label x="87.63" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -8543,14 +8543,14 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="92.71" y1="60.96" x2="87.63" y2="60.96" width="0.1524" layer="91"/>
 <label x="85.09" y="60.96" size="1.778" layer="95"/>
-<pinref part="MOTOR1" gate="G$1" pin="4"/>
+<pinref part="MOTOR-1" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="FAN-1" class="0">
 <segment>
 <wire x1="107.95" y1="68.58" x2="113.03" y2="68.58" width="0.1524" layer="91"/>
 <label x="107.95" y="68.58" size="1.778" layer="95"/>
-<pinref part="MOTOR1" gate="G$1" pin="9"/>
+<pinref part="MOTOR-1" gate="G$1" pin="9"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="40"/>
@@ -8562,7 +8562,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="107.95" y1="66.04" x2="113.03" y2="66.04" width="0.1524" layer="91"/>
 <label x="107.95" y="66.04" size="1.778" layer="95"/>
-<pinref part="MOTOR1" gate="G$1" pin="7"/>
+<pinref part="MOTOR-1" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="A8"/>
@@ -8587,7 +8587,7 @@ grid 2.54 mm</description>
 <wire x1="331.47" y1="43.18" x2="313.69" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MOTOR1" gate="G$1" pin="3"/>
+<pinref part="MOTOR-1" gate="G$1" pin="3"/>
 <wire x1="107.95" y1="60.96" x2="113.03" y2="60.96" width="0.1524" layer="91"/>
 <label x="107.95" y="60.96" size="1.778" layer="95"/>
 </segment>
@@ -8596,7 +8596,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="92.71" y1="66.04" x2="87.63" y2="66.04" width="0.1524" layer="91"/>
 <label x="85.09" y="66.04" size="1.778" layer="95"/>
-<pinref part="MOTOR1" gate="G$1" pin="8"/>
+<pinref part="MOTOR-1" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="A9"/>
@@ -8621,7 +8621,7 @@ grid 2.54 mm</description>
 <wire x1="331.47" y1="109.22" x2="312.42" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MOTOR2" gate="G$1" pin="2"/>
+<pinref part="MOTOR-2" gate="G$1" pin="2"/>
 <wire x1="92.71" y1="35.56" x2="87.63" y2="35.56" width="0.1524" layer="91"/>
 <label x="87.63" y="35.56" size="1.778" layer="95"/>
 </segment>
@@ -8643,7 +8643,7 @@ grid 2.54 mm</description>
 <wire x1="331.47" y1="111.76" x2="313.69" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MOTOR2" gate="G$1" pin="3"/>
+<pinref part="MOTOR-2" gate="G$1" pin="3"/>
 <wire x1="107.95" y1="38.1" x2="113.03" y2="38.1" width="0.1524" layer="91"/>
 <label x="107.95" y="38.1" size="1.778" layer="95"/>
 </segment>
@@ -8667,14 +8667,14 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="92.71" y1="38.1" x2="87.63" y2="38.1" width="0.1524" layer="91"/>
 <label x="85.09" y="38.1" size="1.778" layer="95"/>
-<pinref part="MOTOR2" gate="G$1" pin="4"/>
+<pinref part="MOTOR-2" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="FAN-2" class="0">
 <segment>
 <wire x1="107.95" y1="45.72" x2="113.03" y2="45.72" width="0.1524" layer="91"/>
 <label x="107.95" y="45.72" size="1.778" layer="95"/>
-<pinref part="MOTOR2" gate="G$1" pin="9"/>
+<pinref part="MOTOR-2" gate="G$1" pin="9"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="38"/>
@@ -8686,7 +8686,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="107.95" y1="43.18" x2="113.03" y2="43.18" width="0.1524" layer="91"/>
 <label x="107.95" y="43.18" size="1.778" layer="95"/>
-<pinref part="MOTOR2" gate="G$1" pin="7"/>
+<pinref part="MOTOR-2" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="A10"/>
@@ -8698,7 +8698,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="92.71" y1="43.18" x2="87.63" y2="43.18" width="0.1524" layer="91"/>
 <label x="85.09" y="43.18" size="1.778" layer="95"/>
-<pinref part="MOTOR2" gate="G$1" pin="8"/>
+<pinref part="MOTOR-2" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="A11"/>
@@ -8725,7 +8725,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="92.71" y1="15.24" x2="87.63" y2="15.24" width="0.1524" layer="91"/>
 <label x="85.09" y="15.24" size="1.778" layer="95"/>
-<pinref part="MOTOR3" gate="G$1" pin="4"/>
+<pinref part="MOTOR-3" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="FAN-3" class="0">
@@ -8737,14 +8737,14 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="107.95" y1="22.86" x2="113.03" y2="22.86" width="0.1524" layer="91"/>
 <label x="107.95" y="22.86" size="1.778" layer="95"/>
-<pinref part="MOTOR3" gate="G$1" pin="9"/>
+<pinref part="MOTOR-3" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="CURR-3" class="0">
 <segment>
 <wire x1="107.95" y1="20.32" x2="113.03" y2="20.32" width="0.1524" layer="91"/>
 <label x="107.95" y="20.32" size="1.778" layer="95"/>
-<pinref part="MOTOR3" gate="G$1" pin="7"/>
+<pinref part="MOTOR-3" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="A12"/>
@@ -8769,7 +8769,7 @@ grid 2.54 mm</description>
 <wire x1="438.15" y1="44.45" x2="420.37" y2="44.45" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MOTOR3" gate="G$1" pin="3"/>
+<pinref part="MOTOR-3" gate="G$1" pin="3"/>
 <wire x1="107.95" y1="15.24" x2="113.03" y2="15.24" width="0.1524" layer="91"/>
 <label x="107.95" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -8791,7 +8791,7 @@ grid 2.54 mm</description>
 <wire x1="438.15" y1="41.91" x2="419.1" y2="41.91" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MOTOR3" gate="G$1" pin="2"/>
+<pinref part="MOTOR-3" gate="G$1" pin="2"/>
 <wire x1="92.71" y1="12.7" x2="87.63" y2="12.7" width="0.1524" layer="91"/>
 <label x="87.63" y="12.7" size="1.778" layer="95"/>
 </segment>
@@ -8800,7 +8800,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="92.71" y1="20.32" x2="87.63" y2="20.32" width="0.1524" layer="91"/>
 <label x="85.09" y="20.32" size="1.778" layer="95"/>
-<pinref part="MOTOR3" gate="G$1" pin="8"/>
+<pinref part="MOTOR-3" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="A13"/>
@@ -8822,7 +8822,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="92.71" y1="-7.62" x2="87.63" y2="-7.62" width="0.1524" layer="91"/>
 <label x="85.09" y="-7.62" size="1.778" layer="95"/>
-<pinref part="MOTOR4" gate="G$1" pin="4"/>
+<pinref part="MOTOR-4" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="6"/>
@@ -8847,7 +8847,7 @@ grid 2.54 mm</description>
 <wire x1="438.15" y1="113.03" x2="420.37" y2="113.03" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MOTOR4" gate="G$1" pin="3"/>
+<pinref part="MOTOR-4" gate="G$1" pin="3"/>
 <wire x1="107.95" y1="-7.62" x2="113.03" y2="-7.62" width="0.1524" layer="91"/>
 <label x="107.95" y="-7.62" size="1.778" layer="95"/>
 </segment>
@@ -8869,7 +8869,7 @@ grid 2.54 mm</description>
 <wire x1="438.15" y1="110.49" x2="419.1" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MOTOR4" gate="G$1" pin="2"/>
+<pinref part="MOTOR-4" gate="G$1" pin="2"/>
 <wire x1="92.71" y1="-10.16" x2="87.63" y2="-10.16" width="0.1524" layer="91"/>
 <label x="87.63" y="-10.16" size="1.778" layer="95"/>
 </segment>
@@ -8883,14 +8883,14 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="107.95" y1="0" x2="113.03" y2="0" width="0.1524" layer="91"/>
 <label x="107.95" y="0" size="1.778" layer="95"/>
-<pinref part="MOTOR4" gate="G$1" pin="9"/>
+<pinref part="MOTOR-4" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="CURR-4" class="0">
 <segment>
 <wire x1="107.95" y1="-2.54" x2="113.03" y2="-2.54" width="0.1524" layer="91"/>
 <label x="107.95" y="-2.54" size="1.778" layer="95"/>
-<pinref part="MOTOR4" gate="G$1" pin="7"/>
+<pinref part="MOTOR-4" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="A14"/>
@@ -8902,7 +8902,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="92.71" y1="-2.54" x2="87.63" y2="-2.54" width="0.1524" layer="91"/>
 <label x="85.09" y="-2.54" size="1.778" layer="95"/>
-<pinref part="MOTOR4" gate="G$1" pin="8"/>
+<pinref part="MOTOR-4" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="A15"/>
@@ -9591,7 +9591,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="210.82" y1="17.78" x2="198.12" y2="17.78" width="0.1524" layer="91"/>
 <label x="198.12" y="17.78" size="1.778" layer="95"/>
-<pinref part="J20" gate="G$1" pin="1"/>
+<pinref part="M-POWER" gate="G$1" pin="1"/>
 <pinref part="C29" gate="G$1" pin="+"/>
 <wire x1="190.5" y1="20.32" x2="198.12" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="20.32" x2="198.12" y2="17.78" width="0.1524" layer="91"/>
@@ -9645,7 +9645,7 @@ grid 2.54 mm</description>
 <segment>
 <wire x1="210.82" y1="15.24" x2="198.12" y2="15.24" width="0.1524" layer="91"/>
 <label x="196.85" y="15.24" size="1.778" layer="95"/>
-<pinref part="J20" gate="G$1" pin="2"/>
+<pinref part="M-POWER" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="15.24" x2="198.12" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="-"/>
 <wire x1="198.12" y1="12.7" x2="190.5" y2="12.7" width="0.1524" layer="91"/>

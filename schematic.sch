@@ -7514,8 +7514,8 @@ grid 2.54 mm</description>
 <part name="SERIAL23" library="con-3m-skt-header" deviceset="SOCKET-10" device="V"/>
 <part name="LS1" library="EjaadTech" deviceset="TH-BUZZER-12MM" device="-PTH"/>
 <part name="IMU" library="SparkFun-Connectors" deviceset="M09" device=""/>
-<part name="POWER" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
-<part name="FUSE" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
+<part name="5V" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
+<part name="VS" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="M-POWER" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="J11" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
@@ -7606,8 +7606,8 @@ grid 2.54 mm</description>
 <instance part="SERIAL23" gate="G$1" x="152.4" y="66.04"/>
 <instance part="LS1" gate="G$1" x="-102.87" y="10.16"/>
 <instance part="IMU" gate="G$1" x="198.12" y="92.71"/>
-<instance part="POWER" gate="G$1" x="-111.76" y="100.33" rot="R180"/>
-<instance part="FUSE" gate="G$1" x="-111.76" y="110.49" rot="R180"/>
+<instance part="5V" gate="G$1" x="-111.76" y="100.33" rot="R180"/>
+<instance part="VS" gate="G$1" x="-111.76" y="110.49" rot="R180"/>
 <instance part="M-POWER" gate="G$1" x="218.44" y="17.78" rot="R180"/>
 <instance part="J1" gate="G$1" x="248.92" y="29.21"/>
 <instance part="J11" gate="G$1" x="355.6" y="30.48"/>
@@ -7666,7 +7666,7 @@ grid 2.54 mm</description>
 <wire x1="-101.6" y1="93.98" x2="-101.6" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="91.44" x2="-120.65" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-120.65" y1="91.44" x2="-120.65" y2="97.79" width="0.1524" layer="91"/>
-<pinref part="POWER" gate="G$1" pin="2"/>
+<pinref part="5V" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="ADJ"/>
@@ -7992,6 +7992,11 @@ grid 2.54 mm</description>
 <wire x1="76.2" y1="106.68" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 <label x="76.2" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="VS" gate="G$1" pin="2"/>
+<wire x1="-119.38" y1="107.95" x2="-125.73" y2="107.95" width="0.1524" layer="91"/>
+<label x="-125.73" y="107.95" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -8275,6 +8280,11 @@ grid 2.54 mm</description>
 <wire x1="-109.22" y1="73.66" x2="-106.68" y2="73.66" width="0.1524" layer="91"/>
 <label x="-109.22" y="73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="5V" gate="G$1" pin="1"/>
+<wire x1="-119.38" y1="100.33" x2="-124.46" y2="100.33" width="0.1524" layer="91"/>
+<label x="-125.73" y="100.33" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -8282,7 +8292,7 @@ grid 2.54 mm</description>
 <wire x1="-114.3" y1="115.57" x2="-125.73" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="110.49" x2="-125.73" y2="110.49" width="0.1524" layer="91"/>
 <wire x1="-125.73" y1="110.49" x2="-125.73" y2="115.57" width="0.1524" layer="91"/>
-<pinref part="FUSE" gate="G$1" pin="1"/>
+<pinref part="VS" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VS" class="0">
@@ -9576,15 +9586,6 @@ grid 2.54 mm</description>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="-95.25" y1="63.5" x2="-95.25" y2="68.58" width="0.1524" layer="91"/>
 <label x="-95.25" y="67.31" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<wire x1="-119.38" y1="100.33" x2="-125.73" y2="100.33" width="0.1524" layer="91"/>
-<wire x1="-125.73" y1="100.33" x2="-125.73" y2="107.95" width="0.1524" layer="91"/>
-<wire x1="-125.73" y1="107.95" x2="-119.38" y2="107.95" width="0.1524" layer="91"/>
-<pinref part="POWER" gate="G$1" pin="1"/>
-<pinref part="FUSE" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MOTOR_VS" class="0">

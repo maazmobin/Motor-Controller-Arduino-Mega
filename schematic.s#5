@@ -7071,8 +7071,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pad name="10" x="-5.08" y="1.27" drill="0.8" diameter="1.4" rot="R180"/>
 <text x="-5.66" y="3.88" size="1.778" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="2.2" y="-6.28" size="1.778" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<text x="10.2" y="-1.805" size="1.27" layer="21" font="vector" ratio="10">1</text>
-<text x="10.2" y="0.635" size="1.27" layer="21" font="vector" ratio="10">2</text>
 </package>
 </packages>
 <symbols>

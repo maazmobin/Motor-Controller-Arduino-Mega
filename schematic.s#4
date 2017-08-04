@@ -2381,10 +2381,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="26.416" y1="2.286" x2="26.924" y2="2.794" layer="52"/>
 <rectangle x1="23.876" y1="2.286" x2="24.384" y2="2.794" layer="52"/>
 <rectangle x1="21.336" y1="2.286" x2="21.844" y2="2.794" layer="52"/>
-<hole x="3.81" y="50.8" drill="3.2"/>
-<hole x="2.54" y="2.54" drill="3.2"/>
-<hole x="78.74" y="50.8" drill="3.2"/>
-<hole x="85.09" y="2.54" drill="3.2"/>
 <wire x1="0" y1="1.27" x2="0" y2="52.07" width="0.2032" layer="52"/>
 </package>
 </packages>
@@ -7543,8 +7539,6 @@ grid 2.54 mm</description>
 <part name="J7" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
 <part name="J8" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
 <part name="J9" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="C33" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1"/>
-<part name="C34" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7637,8 +7631,6 @@ grid 2.54 mm</description>
 <instance part="J7" gate="G$1" x="172.72" y="121.92"/>
 <instance part="J8" gate="G$1" x="194.31" y="121.92"/>
 <instance part="J9" gate="G$1" x="-116.84" y="73.66"/>
-<instance part="C33" gate="G$1" x="198.12" y="146.05"/>
-<instance part="C34" gate="G$1" x="77.47" y="148.59"/>
 </instances>
 <busses>
 </busses>
@@ -7840,9 +7832,6 @@ grid 2.54 mm</description>
 <junction x="152.4" y="138.43"/>
 <junction x="163.83" y="138.43"/>
 <junction x="177.8" y="138.43"/>
-<pinref part="C33" gate="G$1" pin="-"/>
-<wire x1="198.12" y1="140.97" x2="198.12" y2="138.43" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="138.43" x2="190.5" y2="138.43" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="107.95" y="63.5" size="1.778" layer="95"/>
@@ -7991,12 +7980,7 @@ grid 2.54 mm</description>
 <pinref part="C32" gate="G$1" pin="1"/>
 <wire x1="97.79" y1="143.51" x2="91.44" y2="143.51" width="0.1524" layer="91"/>
 <junction x="97.79" y="143.51"/>
-<junction x="91.44" y="143.51"/>
 <junction x="107.95" y="143.51"/>
-<wire x1="91.44" y1="143.51" x2="91.44" y2="140.97" width="0.1524" layer="91"/>
-<pinref part="C34" gate="G$1" pin="-"/>
-<wire x1="91.44" y1="140.97" x2="77.47" y2="140.97" width="0.1524" layer="91"/>
-<wire x1="77.47" y1="140.97" x2="77.47" y2="143.51" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q3" gate="Q" pin="S"/>
@@ -8152,9 +8136,6 @@ grid 2.54 mm</description>
 <label x="187.96" y="153.67" size="1.778" layer="95"/>
 <junction x="140.97" y="153.67"/>
 <junction x="177.8" y="153.67"/>
-<pinref part="C33" gate="G$1" pin="+"/>
-<wire x1="198.12" y1="148.59" x2="198.12" y2="153.67" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="153.67" x2="190.5" y2="153.67" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MOTOR1" gate="G$1" pin="1"/>
@@ -8426,11 +8407,7 @@ grid 2.54 mm</description>
 <pinref part="C32" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="151.13" x2="97.79" y2="151.13" width="0.1524" layer="91"/>
 <junction x="107.95" y="151.13"/>
-<junction x="91.44" y="151.13"/>
-<pinref part="C34" gate="G$1" pin="+"/>
-<wire x1="77.47" y1="151.13" x2="77.47" y2="153.67" width="0.1524" layer="91"/>
-<wire x1="77.47" y1="153.67" x2="91.44" y2="153.67" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="153.67" x2="91.44" y2="151.13" width="0.1524" layer="91"/>
+<junction x="97.79" y="151.13"/>
 </segment>
 </net>
 <net name="SCL" class="0">
